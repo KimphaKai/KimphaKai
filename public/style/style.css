@@ -240,7 +240,41 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.contact-form .content input {
+  width: 94%;
+  outline-style: none;
+  border: 0px;
+  margin: 5px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  padding: 7px 0px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.contact-form .content input:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075), 0 2px 8px #f2f2f2;
+          box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075), 0 2px 8px #f2f2f2;
+}
+
 .contact-form .content textarea {
   resize: none;
+  outline-style: none;
+  border: 0px;
+  margin: 5px;
+  padding-left: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form .content textarea:focus {
+  -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075), 0 2px 8px #f2f2f2;
+          box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.075), 0 2px 8px #f2f2f2;
+}
+
+.contact-form .btn {
+  left: 30%;
 }
 /*# sourceMappingURL=style.css.map */
