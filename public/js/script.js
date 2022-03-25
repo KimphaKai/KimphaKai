@@ -6,15 +6,15 @@ $(document).ready(function () {
     }, 300);
     
     $(".btn").on("click", function () {
-        window.location = "/about.html";
+        window.location = "./about.html";
     })
     
     $(".resumebtn").on("click", function () {
-        window.location = "/resume.html";
+        window.location = "./resume.html";
     })
     
     $(".workbtn").on("click", function () {
-        window.location = "/work.html";
+        window.location = "./work.html";
     })
 
     $(".scrollbtn-1").css("background-color", "#212940");
