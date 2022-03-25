@@ -1,0 +1,246 @@
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.6))), url("/public/images/bg-2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url("/public/images/bg-2.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.container .content {
+  color: #e2e2e2;
+  position: relative;
+  width: 500px;
+  top: 250px;
+  left: 20%;
+}
+
+.container .content .content-title {
+  color: #f2f2f2;
+  font-size: 30px;
+}
+
+.container .content p {
+  line-height: 200%;
+  font-size: 16px;
+}
+
+.container .content .btn {
+  position: relative;
+  top: 40px;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  line-height: 40px;
+  color: #f2f2f2;
+  background-color: rgba(255, 255, 255, 0.1);
+  position: relative;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.container .content .btn > p {
+  position: relative;
+  z-index: 1;
+}
+
+.container .content .btn::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 1px solid #f2f2f2;
+  border-left: 1px solid #f2f2f2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.container .content .btn::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.container .content .btn:hover::before,
+.container .content .btn:hover::after {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: absolute;
+  height: 6rem;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.header .logo {
+  position: absolute;
+  top: 40%;
+  left: 3rem;
+  margin: 0%;
+  float: left;
+  z-index: 1;
+}
+
+.header .logo a {
+  text-decoration: none;
+  color: #212940;
+}
+
+.header .logo a .logoname {
+  color: #f2f2f2;
+  font-size: 36px;
+}
+
+.header .logo a .logotitle {
+  font-size: 24px;
+}
+
+.header .navbar {
+  float: left;
+  position: absolute;
+  left: 80rem;
+  top: 1.7rem;
+  z-index: 1;
+}
+
+.header .navbar li {
+  list-style-type: none;
+  float: left;
+  margin-left: 4rem;
+}
+
+.header .navbar li a {
+  font-size: 24px;
+  color: #F2F2F2;
+  text-decoration: none;
+}
+
+.footer {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  height: 5rem;
+}
+
+.footer p {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .content-1, .container .content-2, .container .content-3 {
+  color: #e2e2e2;
+  position: relative;
+  width: 500px;
+  top: 300px;
+  left: 30%;
+  margin-left: 50px;
+}
+
+.container .content-1 .content-title, .container .content-2 .content-title, .container .content-3 .content-title {
+  color: #f2f2f2;
+  font-size: 30px;
+}
+
+.container .content-1 p, .container .content-2 p, .container .content-3 p {
+  font-size: 16px;
+}
+
+.container .content-3 .btn {
+  top: 200px;
+}
+
+.scrollbtn {
+  position: absolute;
+  top: 32%;
+  left: 20%;
+  opacity: 0.8;
+  z-index: 99;
+  background-color: rgba(242, 242, 242, 0.01);
+}
+
+.scrollbtn span {
+  position: relative;
+  color: #f2f2f2;
+  left: 20px;
+}
+
+.scrollbtn .scrollbtn-1 {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+.scrollbtn .scrollbtn-2 {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+.scrollbtn .scrollbtn-3 {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+.scrollbtn .line {
+  position: relative;
+  left: 7px;
+  width: 1px;
+  height: 200px;
+  background: #f2f2f2;
+}
+
+.contact-form {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.contact-form .content textarea {
+  resize: none;
+}
+/*# sourceMappingURL=style.css.map */
