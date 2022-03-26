@@ -291,18 +291,22 @@ body {
 
 .content-work .content-work-vue, .content-work .content-work-react, .content-work .content-work-sweetbakery {
   position: relative;
-  width: 300px;
-  height: 400px;
+  background-color: rgba(242, 242, 242, 0.1);
+  border-radius: 6%;
+  width: 350px;
+  height: 450px;
   float: left;
-  left: 12%;
-  top: 17%;
+  left: 20%;
+  top: 20%;
 }
 
 .content-work .content-work-react {
-  left: 26%;
+  background-color: rgba(242, 242, 242, 0.1);
+  left: 22%;
 }
 
 .content-work .content-work-sweetbakery {
-  left: 40%;
+  background-color: rgba(242, 242, 242, 0.1);
+  left: 24%;
 }
 /*# sourceMappingURL=style.css.map */

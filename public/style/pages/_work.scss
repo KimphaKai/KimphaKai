@@ -5,22 +5,25 @@
     top: 100px;
     .content-work-vue {
         position: relative;
-        width: 300px;
-        height: 400px;
+        background-color: rgba($color: #f2f2f2, $alpha: 0.1);
+        border-radius: 6%;
+        width: 350px;
+        height: 450px;
         float: left;
-        left: 12%;
-        top: 17%;
+        left: 20%;
+        top: 20%;
     }
 
     .content-work-react {
         @extend .content-work-vue;
-
-        left: 26%;
+        background-color: rgba($color: #f2f2f2, $alpha: 0.1);
+        left: 22%;
     }
 
     .content-work-sweetbakery {
         @extend .content-work-vue;
-
-        left: 40%;
+        background-color: rgba($color: #f2f2f2, $alpha: 0.1);
+        left: 24%;
     }
+    
 }
