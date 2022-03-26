@@ -282,6 +282,14 @@ body {
   top: -35%;
 }
 
+.googlemap {
+  position: absolute;
+  width: 883px;
+  height: 90%;
+  top: 10%;
+  left: 54%;
+}
+
 .content-work {
   position: absolute;
   width: 100%;

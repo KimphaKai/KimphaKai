@@ -10,6 +10,9 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./public/style/style.css">
+    <!-- googlemap -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://unpkg.com/three@0.129.0/build/three.min.js"></script>
 </head>
 
 <body>
@@ -40,12 +43,17 @@
             <h2>Send Message</h2>
             <input type="text" id="fname" name="fname" placeholder="Name" required><br>
             <input type="email" id="lname" name="lname" placeholder="Email" required><br>
-            <textarea rows="4" cols="50" name="comment" form="usrform" placeholder="Message"></textarea>
-            <button class="btn" >
+            <textarea rows="4" cols="50" name="message" placeholder="Message"></textarea>
+            <button class="btn" type="submit">
                 <p class="btn-p">Send...</p>
             </button>
         </div>
     </form>
+
+    <!-- google map -->
+    <div class="googlemap">
+        <div id="map" class="map"></div>
+    </div>
 
     <!-- footer -->
     <div class="footer">
@@ -59,6 +67,12 @@
 
     <!-- javaScript -->
     <script src="./public/js/script.js"></script>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLC7ilmZ0ZIXFmHEYEHDJx4uXmvfA6hN4&callback=initMap&v=beta"
+      async
+    ></script>
 </body>
 
 </html>

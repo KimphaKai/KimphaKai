@@ -1,3 +1,5 @@
+
+
 $(document).ready(function () {
     $(".container, .scrollbtn").css('display', "none");
     $(".content-2, .content-3").css('display', "none");
@@ -5,7 +7,7 @@ $(document).ready(function () {
         $(".container, .scrollbtn").fadeIn(1000);
     }, 300);
     
-    $(".btn").on("click", function () {
+    $(".aboutbtn").on("click", function () {
         window.location = "./about.html";
     })
     
@@ -50,4 +52,5 @@ $(document).ready(function () {
     })
 
 
+    
 })
