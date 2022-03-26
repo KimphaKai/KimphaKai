@@ -277,4 +277,32 @@ body {
 .contact-form .btn {
   left: 30%;
 }
+
+.contact-form .btn p {
+  top: -35%;
+}
+
+.content-work {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100px;
+}
+
+.content-work .content-work-vue, .content-work .content-work-react, .content-work .content-work-sweetbakery {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  float: left;
+  left: 12%;
+  top: 17%;
+}
+
+.content-work .content-work-react {
+  left: 26%;
+}
+
+.content-work .content-work-sweetbakery {
+  left: 40%;
+}
 /*# sourceMappingURL=style.css.map */
