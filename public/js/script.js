@@ -19,7 +19,25 @@ $(document).ready(function () {
         window.location = "./work.html";
     })
 
-    $(".scrollbtn-1").css("background-color", "#212940");
+    $(".contentbtn-vue-website").on("click", function () {
+        window.open("https://kimphakai.github.io/vue/");
+    })
+    $(".contentbtn-vue-github").on("click", function () {
+        window.open("https://github.com/KimphaKai/vue/tree/main/");
+    })
+    $(".contentbtn-php-website").on("click", function () {
+        window.open("https://github.com/KimphaKai");
+    })
+    $(".contentbtn-php-github").on("click", function () {
+        window.open("https://github.com/KimphaKai");
+    })
+    $(".contentbtn-sweetbakery-website").on("click", function () {
+        window.open("https://github.com/KimphaKai/sweetBakery");
+    })
+    $(".contentbtn-sweetbakery-github").on("click", function () {
+        window.open("https://github.com/KimphaKai/sweetBakery");
+    })
+
 
     $(".scrollbtn-1").mouseenter(function () {
         $(".scrollbtn-1").css("background-color", "#212940");

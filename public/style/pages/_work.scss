@@ -5,25 +5,58 @@
     top: 100px;
     .content-work-vue {
         position: relative;
-        background-color: rgba($color: #f2f2f2, $alpha: 0.1);
+        display: flex;
         border-radius: 6%;
         width: 350px;
         height: 450px;
         float: left;
         left: 20%;
         top: 20%;
+        transition: background-color 1s linear;
+        h2 {
+            color: #f2f2f2;
+            text-align:center; 
+        }
+        p {
+            color: #e0e0e0;
+            text-align:center;
+        }
+        .vue-content-img {
+            padding-left: 20%;
+        }
+        &:hover {
+            background-color: transparent;
+            background-color: rgba($color: #f2f2f2, $alpha: 0.1);
+        }
     }
 
-    .content-work-react {
+    .content-work-php {
         @extend .content-work-vue;
-        background-color: rgba($color: #f2f2f2, $alpha: 0.1);
         left: 22%;
+        .php-img {
+            display: flex;
+            width: 100%;
+            .php-content-img {
+                display: inline;
+                width: 50%;
+                height: 50%;
+                padding-top: 30px;
+                overflow: hidden;
+            }
+            .laravel-content-img {
+                display: inline;
+                width: 50%;
+                height: 50%;
+            }
+        }
     }
 
     .content-work-sweetbakery {
         @extend .content-work-vue;
-        background-color: rgba($color: #f2f2f2, $alpha: 0.1);
         left: 24%;
+        .sweetbakery-content-img {
+            padding-left: 5%;
+        }
     }
 
     .btn {
@@ -99,21 +132,21 @@
             }
         }
 
-        .contentbtn-react-content {
-            @extend .contentbtn-vue-content
+        .contentbtn-php-content {
+            @extend .contentbtn-vue-content;
         }
-        .contentbtn-react-btn {
+        .contentbtn-php-btn {
             @extend .contentbtn-vue-btn;
-            .contentbtn-react-website {
+            .contentbtn-php-website {
                 @extend .contentbtn-vue-website;
             }
-            .contentbtn-react-github {
+            .contentbtn-php-github {
                 @extend .contentbtn-vue-website;
             }
         }
 
         .contentbtn-sweetbakery-content {
-            @extend .contentbtn-vue-content
+            @extend .contentbtn-vue-content;
         }
         .contentbtn-sweetbakery-btn {
             @extend .contentbtn-vue-btn;
